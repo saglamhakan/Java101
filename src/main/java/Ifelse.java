@@ -16,6 +16,15 @@ public class Ifelse {
             //    if (a>c){
         // System.out.print("a en küçük sayıdır");
 
+        /*
+        git add.
+        git commit -m "commit mesaji"
+        git push
+         */
+        // ctrl+alt+l
+
+
+
         int var1 = 5;
         int var2 = 6;
         if ((var2 = 1) == var1)
