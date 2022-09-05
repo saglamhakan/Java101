@@ -27,7 +27,7 @@ public class SwitchCaseHesapMakinesi {
                         System.out.print("Sonuç: " + (n1 / n2));
                         break;
                     } else{
-                        System.out.print("Bir sayı 0'a bölünemez ");
+                        System.out.print("Bir sayı 0'a bölünemez ajaa ");
                     }
 
             default:System.out.print("Hatalı giriş yaptınız");
