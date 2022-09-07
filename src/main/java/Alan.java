@@ -15,7 +15,7 @@ public class Alan {
         c= girdi.nextDouble();
 
         double u = (a+b+c)/2;
-        double alan = u*(u-a)*(u-b)*(u-c);
+        double alan = Math.sqrt (u*(u-a)*(u-b)*(u-c));
 
         System.out.print("Üçgenin alanı: " + alan);
 

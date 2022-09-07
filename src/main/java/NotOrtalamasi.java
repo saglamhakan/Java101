@@ -1,6 +1,6 @@
 import  java.util.Scanner;
 
-public class Operators {
+public class NotOrtalamasi {
     public static void main(String[] args) {
 
         //değişkenleri belirle
