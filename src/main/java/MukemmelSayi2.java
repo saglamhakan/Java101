@@ -9,7 +9,8 @@ public class MukemmelSayi2 {
             if (number%i==0){
                 sum+=i;
             }
-        }if (sum==number){
+        }
+        if (sum==number){
             System.out.print("Perfect Number");
         }else{
             System.out.print("Not Perfect Number");

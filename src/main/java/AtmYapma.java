@@ -46,7 +46,7 @@ public class AtmYapma {
                     if (right == 0) {
                         System.out.print("Your account bloked");
                     } else {
-                        System.out.println("Your remaining right:" + right);
+                        System.out.println("Kalan Bakiye:" + right);
                     }
                 }
             }

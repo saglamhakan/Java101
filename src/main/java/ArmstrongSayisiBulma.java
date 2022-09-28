@@ -12,7 +12,7 @@ public class ArmstrongSayisiBulma {
 // 2451 % 10==1
         int b = 2451;
         int c = b / 10;
-// üs alma
+// üs almam
         int oneNumber =3;
         int secondNumber=2;
         int result=1;
