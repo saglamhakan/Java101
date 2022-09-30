@@ -48,9 +48,8 @@ public class Employee {
             }else if (farkYil>19){
                 zam = salary * 0.15;
                 return  zam;
-            }else if (farkYil == 0 ){
-                return 0;
             }
+
         }
 
         return 0;
