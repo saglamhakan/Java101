@@ -15,34 +15,34 @@ public class UcakBiletiFiyati {
 
         if (yas <= 12 ) {
             if (yolculukTipi == 2) {
-                System.out.print("Çocuk Tarife: " + (Fiyat / 2) * 0.8);
+                System.out.println("Çocuk Tarife: " + (Fiyat / 2) * 0.8);
             } else {
-                System.out.print("Çocuk Tarife: " + (Fiyat / 2));
+                System.out.println("Çocuk Tarife: " + (Fiyat / 2));
 
             }
         } if (yas < 24 && yas>12) {
             if (yolculukTipi == 2) {
-                System.out.print("Genç Tarife" + (Fiyat * 0.9) * 0.8);
+                System.out.println("Genç Tarife" + (Fiyat * 0.9) * 0.8);
             } else {
-                System.out.print("Genç Tarife" + (Fiyat * 0.9));
+                System.out.println("Genç Tarife" + (Fiyat * 0.9));
 
             }
         } if (yas > 65) {
                     if (yolculukTipi == 2) {
-                        System.out.print("Yaşlı Tarife: " + (Fiyat * 0.7) * 0.8);
+                        System.out.println("Yaşlı Tarife: " + (Fiyat * 0.7) * 0.8);
 
                     } else {
-                        System.out.print("Yaşlı Tarife: " + (Fiyat * 0.7));
+                        System.out.println("Yaşlı Tarife: " + (Fiyat * 0.7));
                     }
 
 
                 }if (yas<65) {
         if  (yolculukTipi == 2) {
-            System.out.print("Normal Bilet: "   + Fiyat*0.8);
+            System.out.println("Normal Bilet: "   + Fiyat*0.8);
 
             }
         }else {
-            System.out.print("Normal Bilet: "   + Fiyat);
+            System.out.println("Normal Bilet: "   + Fiyat);
         }
             }
 

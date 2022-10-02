@@ -9,10 +9,10 @@ public class Bolunebilme {
         sayi= input.nextInt();
         for (int i=0; i<=sayi; i++){
             if (i%12==0){
-                System.out.print(i+ " ");
+                System.out.println(i+ " ");
                 count++;
                 sum+=i;
             }
-        }System.out.println("Ortalamanız =" +sum/count);
+        }System.out.println("Avarage =" +sum/count);
     }
 }
