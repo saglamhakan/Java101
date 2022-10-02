@@ -8,10 +8,10 @@ public class Hipotenus {
         double kisaKenar, uzunKenar;
         double Hipotenus;
 
-        System.out.print("Üçgenin kisa kenarını yazınız:    ");
+        System.out.print("Üçgenin kisa kenarını yazınız: ");
         kisaKenar = input.nextDouble();
 
-        System.out.print("Üçgenin uzun kenarını yazınız:    ");
+        System.out.print("Üçgenin uzun kenarını yazınız: ");
         uzunKenar=input.nextDouble();
 
        Hipotenus = Math.sqrt((kisaKenar*kisaKenar) + (uzunKenar*uzunKenar));

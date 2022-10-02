@@ -1,6 +1,5 @@
-import java.util.OptionalDouble;
 import java.util.Scanner;
-public class KgHesaplama {
+public class ManavKasa {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);

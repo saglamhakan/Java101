@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class VucutKitleİndeksi {
+public class VucutKitleIndeksi {
     public static void main(String[] args) {
 
         double kilo,boy;

@@ -11,9 +11,9 @@ public class KdvHesaplama {
         double KDVsizFiyat = tutar;
         double AzKdvliFiyat = tutar*0.08 + tutar;
 
-        System.out.println("Toplam Fiyat"  + KDVliFiyat);
-        System.out.println("tutar"       +    tutar);
-        System.out.println("kdvOrani" + kdvOrani);
+        System.out.println("Toplam Fiyat: "  + KDVliFiyat);
+        System.out.println("tutar: "       +    tutar);
+        System.out.println("kdvOrani: " + kdvOrani);
 
         boolean kosul1 = tutar >= 1000;
 
