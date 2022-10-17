@@ -1,3 +1,5 @@
+package MaasHesaplamasi;
+
 public class Employee {
     String name;
     double salary;
@@ -39,7 +41,7 @@ public class Employee {
             int farkYil = 2021 - hireYear;
             double zam;
 
-            if (farkYil>0 &&farkYil < 10){
+            if (farkYil>0 &&  farkYil < 10){
                 zam =  salary * 0.05;
                 return zam;
             }else if (farkYil>9 && farkYil<20){

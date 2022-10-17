@@ -5,7 +5,7 @@ public class UsluSayiFor {
         int n,k,sum =1;
         System.out.print("Üssü alınacak sayı: ");
         n= input.nextInt();
-        System.out.print("üs alınacak sayı: ");
+        System.out.print("Üs alınacak sayı: ");
         k= input.nextInt();
         for (int i=1; i<=k; i++){
             sum *=n;
