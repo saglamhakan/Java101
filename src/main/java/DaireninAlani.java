@@ -17,7 +17,7 @@ public class DaireninAlani {
         double cevre= 2*pi*r;
         double dilimAlan = (pi * (r*r) * a) / 360;
 
-        System.out.println("Dairenin alanı "  + alan);
+        System.out.println("Dairenin alanı " + alan );
         System.out.println("Çemberin çevresi "   + cevre);
         System.out.print("Dairenin dilimalanı: "  +dilimAlan);
 
